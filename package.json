@@ -1,0 +1,32 @@
+{
+  "name": "ai-cost-calculator-api",
+  "version": "1.0.0",
+  "description": "The world's first AI model cost estimation API. Calculate, compare, and optimize AI spending across all major providers.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "mcp": "node src/mcp-server.js"
+  },
+  "keywords": [
+    "ai",
+    "cost",
+    "calculator",
+    "pricing",
+    "openai",
+    "anthropic",
+    "google",
+    "gemini",
+    "llama",
+    "mistral",
+    "tokens",
+    "api",
+    "mcp"
+  ],
+  "author": "lazymac2x",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
